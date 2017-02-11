@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lan='en'>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Crystal Collector</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Barrio|Indie+Flower|Roboto+Condensed" rel="stylesheet">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="assets/javascript/game.js"></script>
+
+</head>
+<body>
+<div class="container">
+	<div class="row">
+           <h1 class="page-header" id="title">Crystal Collector<span class="by">by Michael Wolf</span></h1>
+    </div>   <!--rowdiv-->	  
+    
+    <div class="row">
+    	<div class="paragraph">
+    		<span class="rules-title">A few basic rules:</span>
+            	<ol>
+	            	<li>You will be given a random number at the start of the game.	There are four crystals below: amethyst, diamond, emerald and quartz. By clicking on a crystal you will add a specific amount of points to "your number".</li><br>
+
+					<li>By matching "your number" to the "number to match", you win! If "your number" goes above the "number to match", you lose. Winning or losing ends the round.</li><br>
+
+					<li>The value of each crystal is unkown until clicked. At the start of every round, the crystals will have a new value. So if you thought you could simply memorize the four numbers matched to each crystal, sorry to disappoint.</li><br>
+				</ol>
+				
+			<div class="col-sm-12 col-md-12 col-lg-12">
+				<h2 class="goodluck">Good Luck!</h2>
+			</div>
+
+		</div>
+				<hr>
+	</div>	<!--rowdiv-->	
+
+	
+	<div class="row crystals">
+		<div class="col-sm-12">
+		<img src="assets/images/crystal1.png" class="click" id="amethyst">
+		<img src="assets/images/crystal2.png" class="click" id="diamond">
+		<img src="assets/images/crystal3.png" class="click" id="emerald">
+		<img src="assets/images/crystal4.png" class="click" id="quartz">
+		</div>
+	</div> <!-- row div -->			
+
+			
+	<div class="row game">
+		<div class="col-lg-4">
+			<h2>Number to Match:</h2>
+			<div class="total"></div>
+		</div>
+		
+		<div class="col-lg-4">
+			<div class="score">
+				<h2>Your Number:</h2>
+			</div>
+			<div class="addition"></div>	
+		</div>
+
+		<div class="col-lg-4">	
+			<div class="result">
+				<h2>
+				<div id="yourWins">Wins:</div>
+				<div id="yourLosses">Losses:</div>
+				</h2>
+			</div>
+		</div>
+	</div>
+
+	<div id="messageBoxContainer" class="row">
+		<div id="messageBox" class="col-lg-12">
+			<h2 id="message"></h2><br>
+			<button id="playAgan">Click here to play again</button>
+		</div>
+	</div> <!-- row div -->
+
+</div>
+
+
+
+	
+	
+</body>
+</html>

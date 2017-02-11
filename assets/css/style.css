@@ -1,0 +1,105 @@
+body{
+	background-image: url("../images/background.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	font-family: 'Roboto Condensed', serif !important;
+	text-align: center;
+}
+
+.container {
+	background-color: rgba(160, 229, 244, 0.65);
+}
+
+#title {
+	padding-top: 15px;
+	font-family: 'Barrio', serif;
+}
+
+.by {
+	font-size:18px;
+	font-family: 'Indie Flower', serif;
+	margin-right: -111px;
+}
+
+.rules-title {
+	margin-left:10px;
+	font-weight: bold;	
+}
+
+.paragraph{
+	font-family: 'Indie Flower', serif;
+	font-size:24px;
+	margin-bottom: 10px;
+	color: black;
+	text-align: left;
+}
+#message {
+	font-family: 'Indie Flower', serif;
+	font-weight: 600;
+	color: #404040;
+	text-align:center;
+}
+#messageBoxContainer{
+	position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 25%;
+    vertical-align: middle;
+    padding-top: 15%;
+    width: 50%;
+    z-index:-1;
+    opacity:0;
+}
+
+#messageBox {	
+    padding: 100px 25px;
+    background: rgba(165, 173, 234, 0.88);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+button {
+	font-size: 17px !important;
+    background: rgba(94, 159, 204, 0.77);
+    border: 1px solid #434445;
+    padding: 15px 25px;
+    border-radius: 25px;
+    box-shadow: 2px 1px 3px 0 #404040;
+}
+
+button:hover{
+	background: #5e9fcc;
+}
+
+.visible {
+	z-index:1 !important;
+	opacity:1 !important;
+}
+
+.click{
+	width:80px;
+	height:80px;
+}
+
+.goodluck {
+	text-align: center !important;
+	margin-top: 0;
+    margin-bottom: 50px;
+}
+
+.game {
+	background-color: #5e9fcc;
+	color: #f9f9f9;
+	margin-bottom: 50px;
+	margin-top: 30px;
+}
+
+.addition{
+	font-size: 30px;
+}
+
+.total{
+	font-size: 30px;
+}
